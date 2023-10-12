@@ -1,0 +1,3 @@
+docker build -t my-servis .
+docker run -it --rm -p 8989:8989 my-servis
+docker stop $ (docker ps -a -q)
